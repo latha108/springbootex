@@ -7,11 +7,20 @@ public class Employee {
 	private int eid;
 	private String ename;
 	private String esalary;
+	private int age;
 	//secondary datatypes
 	private Address address;
 
 	public int getEid() {
 		return eid;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
 	}
 
 	public void setEid(int eid) {
